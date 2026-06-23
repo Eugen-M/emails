@@ -1,0 +1,119 @@
+<mjml>
+  <mj-head>
+    <mj-title>OnePage</mj-title>
+    <mj-preview>Pre-header Text for OnePage</mj-preview>
+    <mj-attributes>
+      <mj-all
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="18px"
+        color="#292929"
+        line-height="140%"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        align="center"
+        padding="0 0 20px"
+      ></mj-text>
+    </mj-attributes>
+    <mj-style>
+      .footer-text a { color: #e85034 !important; text-decoration: underline; }
+      @media only screen and (max-width: 480px) { .content-wrapper > table >
+      tbody > tr > td { padding: 20px !important; } }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#EDF0F2">
+    <mj-wrapper padding="5px">
+      <mj-section padding="10px 0 15px">
+        <mj-column width="100%"></mj-column>
+      </mj-section>
+
+      <mj-section
+        background-color="#FFFFFF"
+        border-radius="10px"
+        padding="30px 50px"
+        css-class="content-wrapper"
+      >
+        <mj-column>
+          <mj-image
+            src="https://static.mailjet.com/mjml-website/templates/onepage-logo.png"
+            alt="OnePage"
+            padding-bottom="35px"
+            width="100px"
+            href="../index.html"
+          ></mj-image>
+
+          <mj-text font-size="34px" font-weight="bold">Hey there!</mj-text>
+
+          <mj-text
+            >We're sincerely sorry to hear about your experience with
+            [company_name]. We've already notified them about your issue and
+            look forward to their reply.</mj-text
+          >
+
+          <mj-text
+            >But hey, if there's a fantastic company that made your day,
+            consider giving them a thumbs-up with a 5-star review!</mj-text
+          >
+
+          <mj-text
+            >According to our experience, positive reviews give even more
+            motivation for companies in their work, so your words can truly mean
+            the world to them! 🤩</mj-text
+          >
+
+          <mj-button
+            background-color="#e85034"
+            color="white"
+            padding="10px 0 0 0"
+            border-radius="8px"
+            font-size="14px"
+            height="44px"
+            inner-padding="14px 22px"
+            font-weight="bold"
+            >Spread the good vibes</mj-button
+          >
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="5px 0">
+        <mj-column></mj-column>
+      </mj-section>
+
+      <mj-section
+        background-color="#FFFFFF"
+        border-radius="10px"
+        padding="20px"
+      >
+        <mj-column>
+          <mj-text padding="0" font-size="14px"
+            >Warm regards, <strong>OnePage Team</strong></mj-text
+          >
+
+          <mj-text padding="0" font-size="14px"
+            >Successfully voicing consumer concerns since 2000</mj-text
+          >
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="transparent" padding="20px">
+        <mj-column>
+          <mj-text padding="0" font-size="12px" css-class="footer-text"
+            >If you don’t want to receive notifications from our website, click
+            <a href="">unsubscribe</a>.</mj-text
+          >
+          <mj-text padding="0" font-size="12px" css-class="footer-text"
+            >For more information, please read our
+            <a href="">Consumer FAQ</a> and <a href="">Business FAQ</a></mj-text
+          >
+          <mj-text padding="0" font-size="12px" css-class="footer-text"
+            >And you can always reach us at
+            <a href="mailto:support@onepage.com"
+              >support@onepage.com</a
+            ></mj-text
+          >
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

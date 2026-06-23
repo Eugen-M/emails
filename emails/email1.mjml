@@ -1,0 +1,169 @@
+<mjml>
+  <mj-head>
+    <mj-title>OTTO title</mj-title>
+    <mj-preview>Pre-header Text</mj-preview>
+    <mj-attributes>
+      <mj-all
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="18px"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+      ></mj-text>
+    </mj-attributes>
+    <mj-style>
+      .content-title { font-size: 22px !important; padding: 0 0 20px !important;
+      } .content-text { padding: 0 0 20px !important; } @media only screen and
+      (max-width: 480px) { .hero-title div { font-size: 28px !important;
+      line-height: 30px !important; padding-bottom: 20px !important; text-align:
+      center !important; } .content > table > tbody > tr > td { padding: 20px
+      24px !important; } .content-text { padding-bottom: 10px !important; }
+      .content-text div { font-size: 14px !important; line-height: 16px
+      !important; } .footer > table > table > tbody > tr > td { padding: 20px
+      24px !important; text-align: center !important; } .social, .social-text
+      div { text-align: center !important; } .footer-slogan div {
+      padding-bottom: 20px !important; text-align: center !important; font-size:
+      26px !important; line-height: 28px !important; } .footer-logo > table >
+      tbody > tr > td { padding: 20px 0 !important; } .footer > table > tbody >
+      tr > td { padding: 20px 0 !important; } }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <mj-wrapper
+      background-color="#D6E2FF"
+      padding="20px 24px"
+      css-class="hero-block"
+    >
+      <mj-section padding="0">
+        <mj-column vertical-align="middle">
+          <mj-image
+            src="https://res.cloudinary.com/dcz9yzgml/image/upload/v1782218437/logootto_axu70i.png"
+            width="165px"
+            alt=""
+            padding="0 0 20px"
+            align="left"
+            href="../index.html"
+          />
+
+          <mj-text
+            css-class="hero-title"
+            font-size="32px"
+            line-height="34px"
+            color="#292929"
+            font-weight="bold"
+            align="left"
+            padding="0"
+          >
+            Thank You for<br />
+            Your Profile
+          </mj-text>
+        </mj-column>
+
+        <mj-column vertical-align="middle">
+          <mj-image
+            padding="0px"
+            width="104px"
+            src="https://res.cloudinary.com/dcz9yzgml/image/upload/v1782219292/ottoicon_tsdrtl.png"
+          ></mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section padding="40px 24px" css-class="content">
+      <mj-column width="100%">
+        <mj-text css-class="content-title" color="#4A30CF" font-weight="bold"
+          >Hi {first_name}, thanks for joining us!</mj-text
+        >
+
+        <mj-text css-class="content-text">
+          You've successfully completed your profile — that means you're now all
+          set to enjoy member-only perks, early access to new offers, and a few
+          surprises we've got lined up for you.
+        </mj-text>
+
+        <mj-text css-class="content-text">
+          Keep an eye on your inbox: we'll be sending personalized
+          recommendations and exclusive deals based on what matters most to you.
+        </mj-text>
+
+        <mj-text css-class="content-descr" font-weight="bold" padding="0">
+          Best regards
+        </mj-text>
+
+        <mj-text css-class="content-descr" padding="0"> OTTO LLC Team </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section
+      background-color="#4A30CF"
+      css-class="footer"
+      padding="40px 24px"
+    >
+      <mj-column>
+        <mj-text
+          font-size="32px"
+          line-height="36px"
+          align="left"
+          color="#ffffff"
+          padding="0"
+          css-class="footer-slogan"
+          >Let's stay<br />with OTTO</mj-text
+        >
+      </mj-column>
+      <mj-column>
+        <mj-text
+          align="left"
+          color="#ffffff"
+          padding="0 0 10px 0"
+          css-class="social-text"
+          >Follow us for updates and future collaboration
+          opportunities:</mj-text
+        >
+
+        <mj-social
+          mode="horizontal"
+          icon-size="28px"
+          padding="0px"
+          align="left"
+          css-class="social"
+        >
+          <mj-social-element
+            name="facebook"
+            href="#"
+            background-color="transparent"
+          ></mj-social-element>
+          <mj-social-element
+            name="twitter"
+            href="#"
+            background-color="transparent"
+          ></mj-social-element>
+          <mj-social-element
+            name="instagram"
+            href="#"
+            background-color="transparent"
+          ></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-section
+      background-color="#D6E2FF"
+      padding="40px 24px"
+      css-class="footer-logo"
+    >
+      <mj-column>
+        <mj-image
+          src="https://res.cloudinary.com/dcz9yzgml/image/upload/v1782218437/logootto_axu70i.png"
+          width="165px"
+          alt="Logo OTTO LLC"
+          padding="0"
+          align="center"
+          href="#"
+        />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
